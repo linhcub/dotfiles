@@ -1,7 +1,24 @@
 configuration {
     modi: "drun,run,window";
     show-icons: true;
+    font: "monospace 20";
     terminal: "kitty";
     drun-display-format: "{icon} {name}";
     icon-theme: "Papirus";
+}
+
+element-icon {
+    size: 2em;
+    padding: 0 0.15em 0 0;
+    vertical-align: 0.5;
+}
+
+element-text {
+    padding: 0;
+    vertical-align: 0.5;
+}
+
+element {
+    padding: 0px;
+    spacing: 0px;
 }
