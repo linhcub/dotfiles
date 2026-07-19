@@ -48,6 +48,8 @@ local menu        = "hyprlauncher"
 --   hl.exec_cmd("waybar & hyprpaper & firefox")
 -- end)
 
+require("autostart")
+
 
 -------------------------------
 ---- ENVIRONMENT VARIABLES ----
